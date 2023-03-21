@@ -1,0 +1,37 @@
+@import 'normalize.css';
+@import 'roboto.css';
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-image: url('@assets/images/webpack-logo.webp');
+  background-size: cover;
+}
+
+.code {
+  color: darkcyan;
+  transition: all 0.2s ease-in;
+}
+
+.code:hover {
+  padding: 0.5rem;
+  color: gainsboro;
+  font-size: 1.05rem;
+  background-color: #16212f;
+  border-radius: 0.25rem;
+}
